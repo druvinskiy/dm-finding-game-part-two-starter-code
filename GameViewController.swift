@@ -28,14 +28,6 @@ class GameViewController: UIViewController {
         RunLoop.current.add(timer, forMode: .common)
     }
     
-    func updateUI() {
-        
-    }
-    
-    @IBAction func letterButtonTapped(_ sender: UIButton) {
-        
-    }
-    
     func fireTimer(timer: Timer) {
 //        gameBrain.secondsRemaining -= 1
 //        updateUI()
